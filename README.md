@@ -6,7 +6,7 @@
 <!-- ORIGINAL LINK -->
 <li>https://github.com/blazefire710/portfolioAnalyzer (Original, Private)</li>
 <li>https://github.com/lyw142/portfolioAnalyser (Forked, Private)</li>
-
+<p></p>
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
