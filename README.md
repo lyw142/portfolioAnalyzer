@@ -4,8 +4,8 @@
 # Portfolio Analyzer
 
 <!-- ORIGINAL LINK -->
-https://github.com/blazefire710/portfolioAnalyzer (Original, Private)
-https://github.com/lyw142/portfolioAnalyser (Forked, Private)
+<li>https://github.com/blazefire710/portfolioAnalyzer (Original, Private)</li>
+<li>https://github.com/lyw142/portfolioAnalyser (Forked, Private)</li>
 
 <!-- TABLE OF CONTENTS -->
 <details>
