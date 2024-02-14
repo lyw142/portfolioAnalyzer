@@ -1,0 +1,57 @@
+{
+    "stockSymbol": "AMZN",
+    "stockName": "Amazon.com Inc",
+    "stockDescription": "Amazon.com, Inc. is an American multinational technology company which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence. It is one of the Big Five companies in the U.S. information technology industry, along with Google, Apple, Microsoft, and Facebook. The company has been referred to as one of the most influential economic and cultural forces in the world, as well as the world's most valuable brand.",
+    "country": "USA",
+    "sector": "TRADE & SERVICES",
+    "exchange": "NASDAQ",
+    "industry": null,
+    "annualReturn": {
+        "2000": -79.56127676343098,
+        "2001": -30.462724935732645,
+        "2002": 74.58410351201478,
+        "2003": 178.5600847008999,
+        "2004": -15.830482706195351,
+        "2005": 6.4574396026190914,
+        "2006": -16.309650053022263,
+        "2007": 134.76938672072984,
+        "2008": -44.64594127806563,
+        "2009": 162.3244929797192,
+        "2010": 33.80909901873327,
+        "2011": -3.8333333333333406,
+        "2012": 44.927787406123635,
+        "2013": 58.96280942320723,
+        "2014": -22.177085684194683,
+        "2015": 117.78314805864348,
+        "2016": 10.945568065809521,
+        "2017": 55.95636577006683,
+        "2018": 28.431682728073397,
+        "2019": 23.027756879298515,
+        "2020": 76.25606113083384,
+        "2021": 2.3767781315533467,
+        "2022": -49.61521620470618
+    },
+    "annualizedReturn": {
+        "5 Year": 4.864998136065113,
+        "1 Year": 12.389380530973447,
+        "10 Year": 23.30449744133545,
+        "3 Year": -6.910771381755277
+    },
+    "annualizedVolatilityMonths": {
+        "1 year": 34.73402425021612,
+        "10 years": 30.635733282654222,
+        "2 years": 39.91020564909191,
+        "3 years": 34.19438799435667,
+        "5 years": 32.65616227755424
+    },
+    "annualizedVolatilityDays": {
+        "1 month": 34.29386350046129,
+        "1 week": 26.3030825270597,
+        "2 months": 44.80473316902086,
+        "2 weeks": 39.087234754957564,
+        "3 months": 44.36973838089619
+    },
+    "latestTradingDay": null,
+    "currentStockPrice": null,
+    "historicalStockPrice": null
+}

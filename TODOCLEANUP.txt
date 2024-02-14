@@ -1,0 +1,13 @@
+do more Exception handeling 
+remove unused imports
+remove comments
+
+dont use single letter variable names
+
+add to readme
+
+look into file structure
+
+TODO: New stock is working, api always hit the limit
+
+TODO: externalise the password management

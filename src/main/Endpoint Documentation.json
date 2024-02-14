@@ -1,0 +1,556 @@
+// Hiii ppls, was very confused so I am putting this file here for our reference so that its less painful lol
+// REFER TO THIS IF YOU ARE UNSURE OF HOW TO CALL THE BACKEND so that we know how to connect to frontend easier later on
+
+// DESCRIPTION: This file is a documentation of the backend API
+// INSTRUCTION: Import the JSON below into Postman to test the backend endpoints
+// HOW TO IMPORT: 
+//    0. Open Postman
+//    1. Click on "Import"
+//    2. Click on "Raw Text"
+//    3. Copy the JSON below and Paste into Text Box
+//    4. Ensure that your backend is running
+//       4.1 Go to DemoApplication.java and click on the small "run" button above psvm
+//    5. Test on Postman. You should see the response in the "Body" tab
+//       5.1 Each time you call the backend, you should also see something printed in the Backend Terminal in VSC for debugging
+//    6. Do help to add any new Requests that you have tested that are working so everyone can refer easily
+
+{
+	"info": {
+		"_postman_id": "428f9376-43e5-413f-90ad-1a69598a0083",
+		"name": "OOPX portfolioAnalyzer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19477210"
+	},
+	"item": [
+		{
+			"name": "addUser (Valid User)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\": \"paul15\",\r\n    \"password\": \"12345Ab#\",\r\n    \"email\":\"paul15@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/addUser",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addUser (Invalid Password)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\": \"paul15\",\r\n    \"password\": \"12345Ab#\",\r\n    \"email\":\"paul15@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/addUser",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addUser (Existing Email)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\": \"paul15\",\r\n    \"password\": \"12345Ab#\",\r\n    \"email\":\"paul15@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/addUser",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addUser (Invalid Email)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\": \"paul15\",\r\n    \"password\": \"12345Ab#\",\r\n    \"email\":\"paul15@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/addUser",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login (Successful)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\": \"paul15\",\r\n    \"password\": \"12345Ab#\",\r\n    \"email\":\"paul15@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/login",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login (Wrong Password)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\": \"paul15\",\r\n    \"password\": \"123\",\r\n    \"email\":\"paul15@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/login",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login (No such account)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\": \"paul15\",\r\n    \"password\": \"12345Ab#\",\r\n    \"email\":\"paul15@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/addUser",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findAllUsers (Works)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/findAllUsers",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"findAllUsers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findUserByID (Works)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/findUserByID/william321",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"findUserByID",
+						"william321"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findUserByUserName (Works)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/findUserByUserName/wl142",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"findUserByUserName",
+						"wl142"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findUserByEmail (Works)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/findUserByEmail/t@test.com",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"findUserByEmail",
+						"t@test.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateUserEmail (Works)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/updateUserEmail/t2@test.com?newEmail=t2@test.com",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"updateUserEmail",
+						"t2@test.com"
+					],
+					"query": [
+						{
+							"key": "newEmail",
+							"value": "t2@test.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Portfolios (Works)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/portfolios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"portfolios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addStock to Portfolio (Works)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"stockSymbol\": \"AAPL\",\r\n    \"qty\": 50\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/portfolios/TestUSA32023-09-30T01:26:49.379103300/addStock",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"portfolios",
+						"TestUSA32023-09-30T01:26:49.379103300",
+						"addStock"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "removeStock (Works)",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/portfolios/TestUSA32023-09-30T01:26:49.379103300/removeStock?stockSymbol=AAPL",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"portfolios",
+						"TestUSA32023-09-30T01:26:49.379103300",
+						"removeStock"
+					],
+					"query": [
+						{
+							"key": "stockSymbol",
+							"value": "AAPL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findStockByStockSymbol",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/findStockByStockSymbol/GOOGL",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getStockById"
+					],
+					"query": [
+						{
+							"key": "stockSymbol",
+							"value": "GOOGL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findAllStocks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/findAllStocks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getStocks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getPortfolios (Works)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/getPortfolios/t2@test.com"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Portfolios",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userEmail\" : \"william2@gmail.com\",\r\n    \"portfolioName\": \"Testingcreation\",\r\n    \"portfolioStrategy\": \"To ensure that I get the best return!\",\r\n    \"capitalAmount\": 1000.0,\r\n    \"stocks\": [\r\n        {\r\n            \"stockSymbol\" : \"TSLA\",\r\n            \"qty\" : 3,\r\n            \"exchange\" : \"NASDAQ\"\r\n        },\r\n        {\r\n            \"stockSymbol\" : \"DELL\",\r\n            \"qty\" : 2,\r\n            \"exchange\" : \"NASDAQ\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/createPortfolios"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Portfolios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/getPortfolios/william2@gmail.com"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Portfolios",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/delete/{input the portfolio ID here}/{input the email here}"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Portfolios",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"portfolioName\": \"Real\",\r\n    \"portfolioStrategy\": \"To ensure that I get the best return that I will ever had\",\r\n    \"capitalAmount\": 5800.0,\r\n    \"addedStocks\": [\r\n        {\r\n            \"stockSymbol\" : \"DELL\",\r\n            \"qty\" : 10,\r\n            \"exchange\" : \"NYSE\"\r\n        },\r\n        {\r\n            \"stockSymbol\" : \"RIVN\",\r\n            \"qty\" : 10,\r\n            \"exchange\" : \"NASDAQ\"\r\n        }\r\n    ],\r\n    \"deletedStocks\": [\r\n        {\r\n            \"stockSymbol\" : \"RIVN\",\r\n            \"qty\" : 50,\r\n            \"purchasedDateTime\" : \"2023-10-13T04:28:03.513+00:00\",\r\n            \"currentStockPrice\" : 18.92\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/{input the portfolio ID here}/edit"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/v1/portfolios/{input the portfolio ID here}/rebalancedPortfolio",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/portfolios/{input the portfolio ID here}/rebalancedPortfolio",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"portfolios",
+						"Testing162023-10-20T16:56:37.406077",
+						"rebalancedPortfolio"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/logs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/logs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"logs"
+					]
+				}
+			},
+			"response": []
+		}
+
+	]
+}

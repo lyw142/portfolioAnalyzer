@@ -1,0 +1,32 @@
+{
+    "stockSymbol": "AMZN2",
+    "stockName": "Amazon.com Inc",
+    "stockDescription": "Amazon.com, Inc. is an American multinational technology company which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence. It is one of the Big Five companies in the U.S. information technology industry, along with Google, Apple, Microsoft, and Facebook. The company has been referred to as one of the most influential economic and cultural forces in the world, as well as the world's most valuable brand.",
+    "country": "USA",
+    "sector": "TRADE & SERVICES",
+    "exchange": "NASDAQ",
+    "industry": null,
+    "annualReturn": {
+        "2000": -79.56127676343098,
+        "2001": -30.462724935732645,
+        "2003": 178.5600847008999,
+        "2004": -15.830482706195351
+    },
+    "annualizedReturn": {
+        "5 Year": 4.864998136065113,
+        "1 Year": 12.389380530973447
+    },
+    "annualizedVolatilityMonths": {
+        "1 year": 34.73402425021612,
+        "10 years": 30.635733282654222,
+        "2 years": 39.91020564909191
+    },
+    "annualizedVolatilityDays": {
+        "1 month": 34.29386350046129,
+        "1 week": 26.3030825270597,
+        "2 months": 44.80473316902086
+    },
+    "latestTradingDay": null,
+    "currentStockPrice": null,
+    "historicalStockPrice": null
+}

@@ -1,0 +1,30 @@
+{
+  "id": "65052b6d061da968ee16646c",
+  "portfolioName": "usMarket",
+  "strategyDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit ex interdum ante pretium mollis. Curabitur vel eleifend est, nec elementum leo. Donec diam est, imperdiet at odio sed, tincidunt faucibus magna. Vestibulum sodales lacinia lacinia. Pellentesque ac vulputate ipsum, vehicula porttitor massa. In id porttitor mi. Cras iaculis libero eget faucibus luctus. Nulla facilisi. Fusce pharetra, nibh eget porttitor condimentum, dolor justo mollis augue, eget laoreet ligula erat sit amet nisl.",
+  "capitalAmount": 10000,
+  "createdDate": "2023-09-16T04:13:33.797+00:00",
+  "stocks": [
+    {
+      "symbol": "TSCDY",
+      "name": "Tesco plc",
+      "quantity": 1,
+      "percentageAllocated": 10,
+      "buyPrice": 10
+    },
+    {
+      "symbol": "TSCDF",
+      "name": "Tesco plc",
+      "quantity": 2,
+      "percentageAllocated": 20,
+      "buyPrice": 20
+    },
+    {
+      "symbol": "TSCO.LON",
+      "name": "Tesco PLC",
+      "quantity": 3,
+      "percentageAllocated": 30,
+      "buyPrice": 30
+    }
+  ]
+}
