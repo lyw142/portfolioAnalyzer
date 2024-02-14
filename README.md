@@ -3,6 +3,10 @@
 <!-- ABOUT THE PROJECT -->
 # Portfolio Analyzer
 
+<!-- ORIGINAL LINK -->
+https://github.com/blazefire710/portfolioAnalyzer (Original, Private)
+https://github.com/lyw142/portfolioAnalyser (Forked, Private)
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
